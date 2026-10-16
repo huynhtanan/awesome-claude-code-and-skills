@@ -1267,6 +1267,13 @@ Specialized skills for specific industries and use cases.
   - Works with Claude, ChatGPT, OpenClaw, and Hermes Agent through the open Agent Skills format
   - Free tier, no card required; MIT licensed
 
+- [huynhtanan/google-hotels-mcp](https://github.com/huynhtanan/google-hotels-mcp) ![Stars](https://img.shields.io/github/stars/huynhtanan/google-hotels-mcp?style=flat-square)
+  - Google Hotels and Google Vacation Rentals MCP server for Claude Desktop, Claude Code, Cursor and other MCP clients
+  - `search_hotels` returns name, rating, nightly price, hotel class, coordinates, amenities and the rate every booking site charges (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com)
+  - `hotel_price_calendar` returns a 3-month daily rate calendar for one hotel URL
+  - `search_vacation_rentals` returns Google Vacation Rentals (Airbnb/Vrbo/Booking.com) with bedrooms, bathrooms, host
+  - MIT licensed, backed by three open-source Apify actors ($0.002/hotel, $0.0015/daily price); Apify ships $5 free compute/month, no card required
+
 ## Productivity Tools
 
 Utilities and tools to enhance your Claude workflow.
